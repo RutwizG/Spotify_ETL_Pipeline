@@ -1,5 +1,5 @@
 
-# 🎵 Spotlytics: Spotify Global Top 100 - End-to-End Data Pipeline
+# 🎵 Spotify Data Pipeline – Serverless ETL Architecture on AWS
 
 This project implements a fully automated **data engineering pipeline** to extract, process, and analyze Spotify’s weekly **Global Top 100** songs. It leverages modern cloud technologies to build a scalable, serverless architecture that delivers real-time music insights.
 
