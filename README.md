@@ -30,6 +30,10 @@ Stakeholders such as music analysts, producers, and marketers require automated 
 
 ## 🧩 Pipeline Architecture
 
+![ETL Workflow](https://github.com/user-attachments/assets/574d9232-81c6-4211-83cb-cfafb57535d1)
+
+This diagram illustrates the end-to-end ETL workflow for extracting data from the Spotify API using Python and AWS Lambda, transforming it, and loading it into Amazon Athena for analytics. The pipeline is orchestrated with Amazon CloudWatch, stores data in S3, and utilizes AWS Glue for schema inference and queryability.
+
 ### 1. **Data Extraction**
 
 - Source: [Spotify’s Global Top 100 playlist](https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF)
